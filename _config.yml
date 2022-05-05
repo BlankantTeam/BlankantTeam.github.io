@@ -2,7 +2,7 @@
 title: VanessaSaurus
 description: "dinosaurs, programming, and parsnips"
 keywords: "dinosaurs, programming, parsnips"
-url: https://blankant.github.io/
+url: https://BlankantTeam.github.io/
 baseurl: null
 
 # Build settings
@@ -15,7 +15,7 @@ kramdown:
  syntax_highlighter: rouge
 
 # Social networking, etc
-repo: https://github.com/BlankantTeam/blankant.github.io
+repo: https://github.com/BlankantTeam/BlankantTeam.github.io
 #google_analytics: 'UA-67197905-1'
 #disqus_shortname: "vsoch"
 
@@ -68,7 +68,7 @@ author:
   job      : Software Engineer
   bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
   thumb    : /images/author.jpg
-  url      : https://blankant.github.io
+  url      : https://BlankantTeam.github.io
   github   : http://github.com/BlankantTeam
   twitter  : http://twitter.com/BlankantTeam
   facebook : http://facebook.com/BlankantTeam
@@ -76,8 +76,8 @@ author:
 # social settings
 og_locale: "pt_BR"
 twitter_card: "summary"
-twitter_site: "@vsoch"
-twitter_image: https://vsoch.github.io/assets/images/avatar.png
+#twitter_site: "@vsoch"
+#twitter_image: https://vsoch.github.io/assets/images/avatar.png
 
 plugins:
   - jekyll-paginate
