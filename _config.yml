@@ -1,0 +1,92 @@
+# SEO settings
+title: VanessaSaurus
+description: "dinosaurs, programming, and parsnips"
+keywords: "dinosaurs, programming, parsnips"
+url: https://blankant.github.io/
+baseurl: null
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+# Social networking, etc
+repo: https://github.com/BlankantTeam/blankant.github.io
+#google_analytics: 'UA-67197905-1'
+#disqus_shortname: "vsoch"
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: page
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+            comments: true
+
+# asciinema defaults
+asciicast:
+    cols: "115"
+    rows: "25"
+    speed: "3.0"
+    theme: "monokai"
+
+# Search settings
+tipue_search:
+  include:
+    pages: false
+#    collections: [apps]
+  exclude:
+    files: [index.html, 
+            pages/search.md, 
+            search.md]
+
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+
+paginate: 4
+paginate_path: "/page/:num/"
+comments: true
+
+destination: _site
+
+# Author settings
+author:
+  name     : VanessaSaurus
+  job      : Software Engineer
+  bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
+  thumb    : /images/author.jpg
+  url      : https://blankant.github.io
+  github   : http://github.com/BlankantTeam
+  twitter  : http://twitter.com/BlankantTeam
+  facebook : http://facebook.com/BlankantTeam
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary"
+twitter_site: "@vsoch"
+twitter_image: https://vsoch.github.io/assets/images/avatar.png
+
+plugins:
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: [".git", "README.md", "LICENSE.md", "_site", "_drafts", "vendor"]
