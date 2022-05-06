@@ -64,20 +64,18 @@ destination: _site
 
 # Author settings
 author:
-  name     : VanessaSaurus
-  job      : Software Engineer
-  bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
-  thumb    : /images/author.jpg
+ #  name     : VanessaSaurus
+  # job      : Software Engineer
+  # bio      : "Building tools, containers, and cloudy things, with a penchant for Python and parsnips."
+  # thumb    : /img/author.jpg
   url      : https://BlankantTeam.github.io
   github   : http://github.com/BlankantTeam
-  twitter  : http://twitter.com/BlankantTeam
-  facebook : http://facebook.com/BlankantTeam
 
 # social settings
-og_locale: "pt_BR"
-twitter_card: "summary"
-#twitter_site: "@vsoch"
-#twitter_image: https://vsoch.github.io/assets/images/avatar.png
+# og_locale: "pt_BR"
+# twitter_card: "summary"
+# twitter_site: "@BlankantTeam"
+# twitter_image: https://BlankantTeam.github.io/assets/img/avatar.png
 
 plugins:
   - jekyll-paginate
