@@ -1,14 +1,14 @@
 - title: Documentation
   url: docs
   links:
-    - title: "Getting Started"
+    - title: "Web安全基础"
       url: "docs/getting-started"
       children:
-        - title: Features
+        - title: SQL injection
           url: "docs/getting-started#getting-started"
-        - title: Development
+        - title: 命令执行
           url: "docs/getting-started#development"
-        - title: Customization
+        - title: SSRF
           url: "docs/getting-started#customization"
     - title: "About"
       url: "about"
