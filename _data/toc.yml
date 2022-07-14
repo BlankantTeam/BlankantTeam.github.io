@@ -2,7 +2,7 @@
   url: docs
   links:
     - title: "Web安全基础"
-      url: "docs/getting-started"
+      url: "docs/sqlinjection"
       children:
         - title: SQL injection
           url: "docs/sqlinjection"
