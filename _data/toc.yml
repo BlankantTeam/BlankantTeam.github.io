@@ -1,16 +1,32 @@
-- title: Documentation
+- title: Web安全基础
   url: docs
   links:
-    - title: "Web安全基础"
+    - title: "SQL injection"
       url: "docs/sqlinjection"
       children:
         - title: SQL injection
           url: "docs/sqlinjection"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
-- title: "Extras"
+    - title: "命令执行"
+      url: "docs/sqlinjection"
+      children:
+        - title: SQL injection
+          url: "docs/sqlinjection"
+
+- title: "漏洞分析"
+  url: "docs/extras"
+  links:
+    - title: Quizzes
+      url: "docs/extras/example-quiz"
+    - title: Tags Page
+      url: "tags"
+- title: "自动化漏洞挖掘"
+  url: "docs/extras"
+  links:
+    - title: Quizzes
+      url: "docs/extras/example-quiz"
+    - title: Tags Page
+      url: "tags"
+- title: "Web安全洞态"
   url: "docs/extras"
   links:
     - title: Quizzes
