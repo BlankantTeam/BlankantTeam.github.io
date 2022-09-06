@@ -64,6 +64,7 @@ fixedNav: 'true' # true or false
 
 permalink: /:year/:title/
 markdown: kramdown
+encoding: utf-8
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
