@@ -1,0 +1,8 @@
+vendor
+_site
+Gemfile.lock
+/.idea/*
+.vs
+.circleci
+Gemfile
+Gemfile.lock

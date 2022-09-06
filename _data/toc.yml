@@ -1,0 +1,13 @@
+- title: WEB安全
+  url: /
+  links:
+    - title: "web基础知识"
+      url: "docs/webjunior"
+    - title: "Tech"
+      url: "tech"
+    - title: "Tags"
+      url: "tags"
+    - title: "Recently"
+      url: "recently"
+    - title: "About"
+      url: "about"
