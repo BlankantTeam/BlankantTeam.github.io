@@ -6,14 +6,16 @@ permalink: /docs/
 
 # Documentation
 
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
-particular page.
+Welcome to the {{ site.title }} Documentation pages!
+
 
 <div class="section-index">
     <hr class="panel-line">
-    {% for post in site.docs  %}        
+    {% assign sorted = site.docs | sort: 'date' | reverse %}
+    {% for doc in sorted  %}
     <div class="entry">
-    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
-    <p>{{ post.description }}</p>
+    <h3><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></h3>
+    <span class="post-date">{{ doc.date | date: "%B %d, %Y" }}</span><br>
+    <p>{{ doc.description }}</p>
     </div>{% endfor %}
 </div>
